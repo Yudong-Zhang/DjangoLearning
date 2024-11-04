@@ -84,6 +84,19 @@ CHANNEL_LAYERS = {
     },
 }
 
+# DJANGO_CHANNELS_REST_API = {
+#     'DEFAULT_PERMISSION_CLASSES': (
+#         'rest_framework.permissions.IsAuthenticated',
+#     ),
+#     'DEFAULT_AUTHENTICATION_CLASSES': (
+#         'rest_framework.authentication.SessionAuthentication',
+#         'rest_framework.authentication.BasicAuthentication',
+#         # 'rest_framework_simplejwt.authentication.JWTAuthentication',  # 如果使用JWT
+#     ),
+# }
+
+
+
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
