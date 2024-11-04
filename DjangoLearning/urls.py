@@ -17,6 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from websocket.consumers import websocket_test
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path("", websocket_test)
 ]
